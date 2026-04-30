@@ -1,0 +1,12 @@
+yfinance
+pandas
+requests
+beautifulsoup4
+scikit-learn
+matplotlib
+seaborn
+vnstock3
+lxml
+python-dotenv
+nltk
+vaderSentiment
