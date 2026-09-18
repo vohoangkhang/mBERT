@@ -49,4 +49,4 @@ This shift transformed the problem from predicting absolute values to predicting
 4.  **Chen, W., & Smith, J. (2024).** *BiLSTM vs. Transformer: A Comparative Study on Volatility Prediction in Emerging Markets.* Journal of Banking & Finance.
 
 ---
-*Report generated on March 16, 2026.*
+*Report generated on March 16, 2026.*  
