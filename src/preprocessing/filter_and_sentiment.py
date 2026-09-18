@@ -37,7 +37,7 @@ def process_sentiment_results(results, model_type):
 
 def analyze_vnm_news(output_dir):
     """Xử lý riêng tin tức tiếng Việt của VNM bằng mBERT."""
-    vnm_news_file = "data/raw/VNM_news_synthetic.csv"
+    vnm_news_file = "data/raw/VNM_news.csv"
     if not os.path.exists(vnm_news_file): return
     
     analyzer = get_analyzer("nlptown/bert-base-multilingual-uncased-sentiment")
