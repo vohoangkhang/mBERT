@@ -1,0 +1,6 @@
+Comparison,Mean Error A,Mean Error B,Improvement (%),W-Statistic,p-value,Conclusion
+BiLSTM + Specific (FinBERT/PhoBERT) vs BiLSTM + mBERT,12.836,14.3581,-11.86,206037.0,1.3629e-01,Fail to reject H0
+XGBoost + Specific (FinBERT/PhoBERT) vs XGBoost + mBERT,14.246,14.1879,0.41,201149.0,3.7278e-02,Reject H0 (p < 0.05)
+Random Forest + Specific (FinBERT/PhoBERT) vs Random Forest + mBERT,12.8626,12.9672,-0.81,122021.0,1.7219e-31,Reject H0 (p < 0.05)
+BiLSTM Pure vs BiLSTM + Specific (FinBERT/PhoBERT),14.3772,12.836,10.72,192276.5,1.5866e-03,Reject H0 (p < 0.05)
+BiLSTM Pure vs BiLSTM + mBERT,14.3772,14.3581,0.13,187163.5,1.5785e-04,Reject H0 (p < 0.05)

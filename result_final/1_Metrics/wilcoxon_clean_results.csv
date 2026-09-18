@@ -1,0 +1,6 @@
+Comparison,Mean Error A,Mean Error B,Improvement (%),W-Statistic,p-value,Conclusion
+BiLSTM Pure vs BiLSTM + mBERT,12.2287,13.0196,-6.47,199702.5,2.3953e-02,Reject H0 (p < 0.05)
+XGBoost Pure vs XGBoost + mBERT,14.0776,14.1879,-0.78,153498.0,3.7939e-15,Reject H0 (p < 0.05)
+Random Forest Pure vs Random Forest + mBERT,12.7627,12.9672,-1.6,177286.0,6.4745e-07,Reject H0 (p < 0.05)
+Decision Tree Pure vs Decision Tree + mBERT,13.8807,13.8495,0.22,97521.0,2.1690e-01,Fail to reject H0
+Naive Persistence vs BiLSTM + mBERT,3.6222,13.0196,-259.44,35918.0,2.0941e-108,Reject H0 (p < 0.05)
